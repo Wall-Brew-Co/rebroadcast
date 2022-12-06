@@ -1,3 +1,263 @@
+Wall-Brew-Co/brew-bot:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/clojurescript.yml
+    dest: .github/workflows/clojurescript.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/brewtility:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/clojurescript.yml
+    dest: .github/workflows/clojurescript.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/clj-xml:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/common-beer-data:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/clojurescript.yml
+    dest: .github/workflows/clojurescript.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/common-beer-format:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/clojurescript.yml
+    dest: .github/workflows/clojurescript.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/keg:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
+Wall-Brew-Co/lein-sealog:
+  - source: sources/github-actions/labels.yml
+    dest: .github/labels.yml
+  - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
+    dest: .github/PULL_REQUEST_TEMPLATE.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
+    dest: .github/ISSUE_TEMPLATE/bug_report.md
+  - source: sources/github-actions/ISSUE_TEMPLATE/feature_request.md
+    dest: .github/ISSUE_TEMPLATE/feature_request.md
+  - source: sources/github-actions/workflows/clojure.yml
+    dest: .github/workflows/clojure.yml
+  - source: sources/github-actions/workflows/dependencies.yml
+    dest: .github/workflows/dependencies.yml
+  - source: sources/github-actions/workflows/deploy_to_clojars.yml
+    dest: .github/workflows/deploy_to_clojars.yml
+  - source: sources/github-actions/workflows/format.yml
+    dest: .github/workflows/format.yml
+  - source: sources/github-actions/workflows/label.yml
+    dest: .github/workflows/label.yml
+  - source: sources/github-actions/workflows/lint.yml
+    dest: .github/workflows/lint.yml
+  - source: sources/github-actions/workflows/scanner.yml
+    dest: .github/workflows/scanner.yml
+  - source: sources/github-actions/workflows/sync_labels.yml
+    dest: .github/workflows/sync_labels.yml
+  - source: sources/github-actions/workflows/todo.yml
+    dest: .github/workflows/todo.yml
+  - source: sources/community/CODE_OF_CONDUCT.md
+    dest: CODE_OF_CONDUCT.md
+  - source: sources/community/SECURITY.md
+    dest: SECURITY.md
+  - source: sources/clojure/.cljstyle
+    dest: .cljstyle
+  - source: sources/clojure/cljkondo/config.edn
+    dest: .clj-kondo/config.edn
+
 Wall-Brew-Co/spoon:
   - source: sources/github-actions/labels.yml
     dest: .github/labels.yml

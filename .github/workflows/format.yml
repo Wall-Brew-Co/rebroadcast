@@ -1,0 +1,34 @@
+name: Formatter
+
+on:
+  pull_request: {}
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v3.1.0
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.WALL_BREW_BOT_PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      # Table of Contents Tool: https://github.com/thlorenz/doctoc
+      - name: Install Doctoc
+        run: npm install -g doctoc
+
+      - name: Update Markdown Files
+        run: doctoc README.md --github
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.15.2
+        with:
+          commit_message: |
+            [Format] Auto-formatting

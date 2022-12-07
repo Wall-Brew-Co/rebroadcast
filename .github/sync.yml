@@ -1,3 +1,7 @@
+##################
+# Static Files
+##################
+
 group:
 
   # cljstyle configuration
@@ -128,3 +132,15 @@ group:
     files:
       - source: sources/github-actions/workflows/clojurescript.yml
         dest: .github/workflows/clojurescript.yml
+
+##################
+# Templated Files
+##################
+
+Wall-Brew-Co/brew-bot:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022

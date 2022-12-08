@@ -79,11 +79,19 @@ Wall Brew maintains one standard policy for communicating repository and depende
 To streamline communication od sensitive and time-critical information, this files should be made uniformly available as `SECURITY.md`.
 This also automatically populates the [Security Advisory](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository) tab in Github.
 
+#### License
+
+#### Code Owners
+
+#### Contribution Guidelines
+
 ### GitHub Dot Files
 
 Since most Wall Brew repositories are written in Clojure/Clojurescript, and we encourage tools to work out of the box with no to minimal configuration, our automated quality checks and tests can be shared across repositories.
 Additionally, these files allow us to specify common bug report, feature request, and pull request templates.
 These provide a uniform experience for developers across all of our repositories.
+
+#### Git Ignore
 
 #### Issue Templates
 

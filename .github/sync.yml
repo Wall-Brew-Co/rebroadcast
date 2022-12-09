@@ -180,3 +180,95 @@ Wall-Brew-Co/brew-bot:
     template:
       repo:
         name: brew-bot
+
+
+Wall-Brew-Co/brewtility:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: brewtility
+
+Wall-Brew-Co/clj-xml:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: clj-xml
+
+Wall-Brew-Co/common-beer-data:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: common-beer-data
+
+Wall-Brew-Co/common-beer-format:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: common-beer-format
+
+Wall-Brew-Co/keg:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: keg
+
+Wall-Brew-Co/lein-sealog:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: lein-sealog
+
+Wall-Brew-Co/spoon:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: spoon

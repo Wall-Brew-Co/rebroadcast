@@ -1,3 +1,7 @@
+##################
+# Static Files
+##################
+
 group:
 
   # cljstyle configuration
@@ -27,6 +31,20 @@ group:
     files:
       - source: sources/clojure/cljkondo/config.edn
         dest: .clj-kondo/config.edn
+
+  # .gitignore configuration
+  - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
+      Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
+    files:
+      - source: sources/clojure/.gitignore
+        dest: .gitignore
 
   # Code of Conduct
   - repos: |
@@ -93,6 +111,21 @@ group:
         dest: .github/workflows/sync_labels.yml
       - source: sources/github-actions/workflows/todo.yml
         dest: .github/workflows/todo.yml
+      - source: sources/github-actions/workflows/contributors.yml
+        dest: .github/workflows/contributors.yml
+      - source: sources/github-actions/workflows/greetings.yml
+        dest: .github/workflows/greetings.yml
+  
+  # Default Labeling
+  - repos: |
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
+    files:
+      - source: sources/github-actions/labeler.yml
+        dest: .github/labeler.yml
 
   # Clojure CI/CD
   - repos: |
@@ -117,6 +150,8 @@ group:
         dest: .github/workflows/lint.yml
       - source: sources/github-actions/workflows/scanner.yml
         dest: .github/workflows/scanner.yml
+      - source: sources/github-actions/workflows/cljdoc_test.yml
+        dest: .github/workflows/cljdoc_test.yml
 
   # Clojurescript CI/CD
   - repos: |
@@ -128,3 +163,112 @@ group:
     files:
       - source: sources/github-actions/workflows/clojurescript.yml
         dest: .github/workflows/clojurescript.yml
+
+##################
+# Templated Files
+##################
+
+Wall-Brew-Co/brew-bot:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: brew-bot
+
+
+Wall-Brew-Co/brewtility:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: brewtility
+
+Wall-Brew-Co/clj-xml:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: clj-xml
+
+Wall-Brew-Co/common-beer-data:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: common-beer-data
+
+Wall-Brew-Co/common-beer-format:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: common-beer-format
+
+Wall-Brew-Co/keg:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2020
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: keg
+
+Wall-Brew-Co/lein-sealog:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: lein-sealog
+
+Wall-Brew-Co/spoon:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2022
+        current: 2022
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: spoon

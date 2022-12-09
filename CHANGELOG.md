@@ -4,6 +4,16 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2022 Dec 08
+
+* Configure .gitignore as a rebroadcastable target
+* Configure common Pull Request Label targets as rebroadcastable targets
+* Add GitHub Action to check clojure documentation will produce valid cljdoc documentation
+* Add GitHub Action to automatically generate the CONTRIBUTORS image
+* Add GitHub action to greet new contributors
+* Add template for Contibution Guidelines to embed repository-specific links
+* Add template for MIT License to embed the repository year
+
 ## 2022 Dec 06
 
 * Configure all common clojure Github Actions as rebroadcastable targets

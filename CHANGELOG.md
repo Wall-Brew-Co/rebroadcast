@@ -4,6 +4,10 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2022 Dec 23
+
+* Bump `actions/checkout` from `3.1.0` to `3.2.0`
+
 ## 2022 Dec 08
 
 * Configure .gitignore as a rebroadcastable target

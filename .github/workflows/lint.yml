@@ -1,0 +1,21 @@
+name: Linter
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  spell-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3.2.0
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: misspell
+        uses: reviewdog/action-misspell@v1
+        with:
+          github_token: ${{ secrets.WALL_BREW_BOT_PAT }}
+          locale: "US"
+          reporter: github-pr-review
+          level: error
+          filter_mode: file

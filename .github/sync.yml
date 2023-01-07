@@ -213,7 +213,7 @@ Wall-Brew-Co/common-beer-data:
     dest: LICENSE
     template:
       year:
-        created: 2023
+        created: 2022
         current: 2023
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
@@ -252,7 +252,7 @@ Wall-Brew-Co/lein-sealog:
     dest: LICENSE
     template:
       year:
-        created: 2023
+        created: 2022
         current: 2023
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
@@ -265,7 +265,7 @@ Wall-Brew-Co/spoon:
     dest: LICENSE
     template:
       year:
-        created: 2023
+        created: 2022
         current: 2023
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md

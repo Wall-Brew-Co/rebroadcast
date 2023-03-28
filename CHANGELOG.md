@@ -4,6 +4,10 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2023 Mar 27
+
+* Bump `actions/checkout` to `3.5.0`
+
 ## 2022 Dec 13
 
 * Add NPM files to .gitignore, since it's used for CLJS test suites

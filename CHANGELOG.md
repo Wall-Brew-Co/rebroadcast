@@ -4,7 +4,16 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+
 ## 2023 Apr 18
+
+* Bump `actions/checkout` to `3.5.2`
+
+## 2023 Apr 01
+
+* Bump `nnichols/clojure-dependency-update-action` to `v5`
+
+## 2023 Mar 27
 
 * Bump `actions/checkout` to `3.5.0`
 

@@ -7,6 +7,8 @@ That said, it is important to track the history of changes made to our CI/CD and
 ## 2023 May 25
 
 * Replace `clojure-dependency-update-action` with [Renovate](https://github.com/orgs/Wall-Brew-Co/discussions/5)
+* Bump `clj-holmes-action` to 53daa4da4ff495cccf791e4ba4222a8317ddae9e
+* Force Leiningen to keep POM files up-to-date
 
 ## 2023 Apr 18
 

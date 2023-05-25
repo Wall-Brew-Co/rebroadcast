@@ -129,6 +129,8 @@ group:
 
   # Renovate Configuration
   - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
       Wall-Brew-Co/common-beer-format
     files:
       - source: sources/github-actions/renovate.json

@@ -73,7 +73,7 @@ group:
     files:
       - source: sources/community/SECURITY.md
         dest: SECURITY.md
-  
+
   # Issue and Pull Request Templates
   - repos: |
       Wall-Brew-Co/brew-bot
@@ -115,7 +115,7 @@ group:
         dest: .github/workflows/contributors.yml
       - source: sources/github-actions/workflows/greetings.yml
         dest: .github/workflows/greetings.yml
-  
+
   # Default Labeling
   - repos: |
       Wall-Brew-Co/brewtility
@@ -126,6 +126,13 @@ group:
     files:
       - source: sources/github-actions/labeler.yml
         dest: .github/labeler.yml
+
+  # Renovate Configuration
+  - repos: |
+      Wall-Brew-Co/common-beer-format
+    files:
+      - source: sources/github-actions/renovate.json
+        dest: renovate.json
 
   # Clojure CI/CD
   - repos: |
@@ -140,8 +147,6 @@ group:
     files:
       - source: sources/github-actions/workflows/clojure.yml
         dest: .github/workflows/clojure.yml
-      - source: sources/github-actions/workflows/dependencies.yml
-        dest: .github/workflows/dependencies.yml
       - source: sources/github-actions/workflows/deploy_to_clojars.yml
         dest: .github/workflows/deploy_to_clojars.yml
       - source: sources/github-actions/workflows/format.yml

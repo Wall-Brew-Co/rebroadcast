@@ -21,9 +21,6 @@ That said, it is important to track the history of changes made to our CI/CD and
 ## 2023 Mar 27
 
 * Bump `actions/checkout` to `3.5.0`
-
-## 2023 Mar 27
-
 * Bump `actions/checkout` to `3.3.0`
 
 ## 2022 Dec 13

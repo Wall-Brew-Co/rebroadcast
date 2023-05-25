@@ -131,7 +131,12 @@ group:
   - repos: |
       Wall-Brew-Co/brew-bot
       Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
       Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/renovate.json
         dest: renovate.json

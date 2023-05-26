@@ -4,6 +4,11 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2023 May 25
+
+* Replace `clojure-dependency-update-action` with [Renovate](https://github.com/orgs/Wall-Brew-Co/discussions/5)
+* Bump `clj-holmes-action` to 53daa4da4ff495cccf791e4ba4222a8317ddae9e
+* Force Leiningen to keep POM files up-to-date
 
 ## 2023 Apr 18
 
@@ -16,9 +21,6 @@ That said, it is important to track the history of changes made to our CI/CD and
 ## 2023 Mar 27
 
 * Bump `actions/checkout` to `3.5.0`
-
-## 2023 Mar 27
-
 * Bump `actions/checkout` to `3.3.0`
 
 ## 2022 Dec 13

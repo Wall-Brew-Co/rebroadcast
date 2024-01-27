@@ -4,6 +4,14 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2024 January 27
+
+* Bump year to 2024
+* Bump `actions/cache` to `v4`
+* Bump `github/codeql-action/upload-sarif` to `v3`
+* Bump `actions/labeler` to `v5`
+* Bump `actions/checkout` to `4.1.1`
+
 ## 2023 June 1
 
 * Bump `actions/checkout` to `3.5.3`

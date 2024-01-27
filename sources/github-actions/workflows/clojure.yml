@@ -17,6 +17,7 @@ jobs:
           cache-name: cache-maven
       with:
           path: ~/.m2
+          save-always: true
           key: ${{ runner.os }}-clj-${{ hashFiles('**/project.clj') }}
           restore-keys: |
             ${{ runner.os }}-clj

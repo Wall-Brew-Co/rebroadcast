@@ -1,6 +1,6 @@
 restricted:
-- changed-files:
-  - any-glob-to-any-file: ['LICENSE', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'CODEOWNERS', '.github/**/*', '.cljstyle', 'SECURITY.md', '.clj-kondo/**/*', '.gitignore']
+  - changed-files:
+    - any-glob-to-any-file: ['LICENSE', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'CODEOWNERS', '.github/**/*', '.cljstyle', 'SECURITY.md', '.clj-kondo/**/*', '.gitignore']
 
 dotfiles:
   - .github/**/*
@@ -15,6 +15,7 @@ documentation:
   - docs/**/*
   - doc/**/*
   - .sealog/**/*
+  - '**/*.md'
 
 source code:
   - src/**/*

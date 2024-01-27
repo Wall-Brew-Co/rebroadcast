@@ -11,6 +11,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 * Bump `github/codeql-action/upload-sarif` to `v3`
 * Bump `actions/labeler` to `v5`
 * Bump `actions/checkout` to `4.1.1`
+* Add new label types
 
 ## 2023 June 1
 

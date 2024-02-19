@@ -10,6 +10,7 @@ A repository for files that are copied across multiple repositories.
   - [Clojure](#clojure)
     - [cljstyle Configuration](#cljstyle-configuration)
     - [clj-kondo Configuration](#clj-kondo-configuration)
+    - [Sealog Configuration](#sealog-configuration)
   - [Community Documentation](#community-documentation)
     - [Code of Conduct](#code-of-conduct)
     - [Security Policy](#security-policy)

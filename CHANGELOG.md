@@ -7,6 +7,9 @@ That said, it is important to track the history of changes made to our CI/CD and
 ## 2024 February 19
 
 * Add default configuration for [Sealog](https://github.com/Wall-Brew-Co/lein-sealog)
+* Update Renovate to progressively rebase branches
+* Update Renovate to keep lockfiles up-to-date
+* Update all comments to link to source file
 
 ## 2024 January 27
 
@@ -56,7 +59,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 * Add GitHub Action to check clojure documentation will produce valid cljdoc documentation
 * Add GitHub Action to automatically generate the CONTRIBUTORS image
 * Add GitHub action to greet new contributors
-* Add template for Contibution Guidelines to embed repository-specific links
+* Add template for Contribution Guidelines to embed repository-specific links
 * Add template for MIT License to embed the repository year
 
 ## 2022 Dec 06

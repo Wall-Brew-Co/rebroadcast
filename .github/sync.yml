@@ -129,15 +129,6 @@ group:
         dest: .github/workflows/contributors.yml
       - source: sources/github-actions/workflows/greetings.yml
         dest: .github/workflows/greetings.yml
-
-  # Default Labeling
-  - repos: |
-      Wall-Brew-Co/brewtility
-      Wall-Brew-Co/clj-xml
-      Wall-Brew-Co/keg
-      Wall-Brew-Co/lein-sealog
-      Wall-Brew-Co/spoon
-    files:
       - source: sources/github-actions/labeler.yml
         dest: .github/labeler.yml
 

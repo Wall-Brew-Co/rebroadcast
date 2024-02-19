@@ -46,6 +46,20 @@ group:
       - source: sources/clojure/.gitignore
         dest: .gitignore
 
+  # Sealog configuration
+  - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
+      Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
+    files:
+      - source: sources/clojure/sealog/config.edn
+        dest: .sealog/config.edn
+
   # Code of Conduct
   - repos: |
       Wall-Brew-Co/brew-bot
@@ -162,6 +176,18 @@ group:
         dest: .github/workflows/lint.yml
       - source: sources/github-actions/workflows/scanner.yml
         dest: .github/workflows/scanner.yml
+
+  # cljdoc CI/CD
+  ## This exists since Leiningen plugin projects do not have a separate CLJdoc workflow
+  - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
+      Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/spoon
+    files:
       - source: sources/github-actions/workflows/cljdoc_test.yml
         dest: .github/workflows/cljdoc_test.yml
 

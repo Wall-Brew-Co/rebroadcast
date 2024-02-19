@@ -10,6 +10,7 @@ A repository for files that are copied across multiple repositories.
   - [Clojure](#clojure)
     - [cljstyle Configuration](#cljstyle-configuration)
     - [clj-kondo Configuration](#clj-kondo-configuration)
+    - [Sealog Configuration](#sealog-configuration)
   - [Community Documentation](#community-documentation)
     - [Code of Conduct](#code-of-conduct)
     - [Security Policy](#security-policy)
@@ -57,8 +58,14 @@ While the [configuration](./sources/clojure/.cljstyle) is minimal, rebroadcastin
 #### clj-kondo Configuration
 
 [clj-kondo](https://github.com/clj-kondo/clj-kondo) is used as the primary linting too for clojure(script) code at Wall Brew.
-Aside from a few special rules and hooks, most applications and all libraries, are generally able to leverage the same [linter configuration](./sources/clojure/config.edn).
+Aside from a few special rules and hooks, most applications and all libraries, are generally able to leverage the same [linter configuration](./sources/clojure/cljkondo/config.edn).
 The configuration is designed to cleanly integrate with code quality tools, and to push developers towards consistent coding standards.
+
+#### Sealog Configuration
+
+[Sealog](https://github.com/Wall-Brew-Co/lein-sealog) is the default changelog management tool used at Wall Brew.
+All applications and libraries are able to leverage the same [changelog configuration](./sources/clojure/sealog/config.edn).
+The configuration is designed to enforce consistent Changelog and versioning standards.
 
 ### Community Documentation
 

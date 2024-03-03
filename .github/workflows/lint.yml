@@ -19,3 +19,4 @@ jobs:
           reporter: github-pr-review
           level: error
           filter_mode: file
+          ignore: "litre,millilitre,litres,millilitres"

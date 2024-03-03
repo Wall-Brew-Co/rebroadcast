@@ -4,6 +4,12 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2024 March 3
+
+* Update `.cljstyle` config to ignore commonly uncommitted directories (e.g. `node_modules`, `target`)
+* Update Misspell to ignore alternative spellings of "liter" and "milliliter"
+* Update `sealog` config to pretty print changelog entry source files
+
 ## 2024 February 19
 
 * Add default configuration for [Sealog](https://github.com/Wall-Brew-Co/lein-sealog)

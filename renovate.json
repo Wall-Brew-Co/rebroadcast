@@ -13,5 +13,12 @@
   "schedule": [
     "after 11am and before 8pm every weekday"
   ],
+  "github-actions": {
+    "fileMatch": [
+      "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+      "(^|/)action\\.ya?ml$",
+      "\\.yml$"
+    ]
+  },
   "timezone": "America/Chicago"
 }

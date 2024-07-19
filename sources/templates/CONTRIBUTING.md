@@ -7,8 +7,8 @@ Wall Brew strives to make contributions as simple as possible while ensuring our
 
 - [Code of Conduct](#code-of-conduct)
   - [Our Pledge](#our-pledge)
-- [Communicating Changes](#communicating-changes)
-  - [Read the Documentation](#read-the-documentation)
+- [Prior to Contributing](#prior-to-contributing)
+- [Communicating and Contributing Changes](#communicating-and-contributing-changes)
   - [Where To Start](#where-to-start)
 - [Pull Request](#pull-request)
   - [Restricted Files](#restricted-files)

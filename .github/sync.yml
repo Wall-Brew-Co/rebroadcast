@@ -120,6 +120,38 @@ group:
       - source: sources/github-actions/PULL_REQUEST_TEMPLATE.md
         dest: .github/PULL_REQUEST_TEMPLATE.md
 
+  # Developer Documentation
+  - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
+      Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
+    files:
+      - source: sources/community/documentation/developing/001_required_tooling.md
+        dest: doc/developing/001_required_tooling.md
+      - source: sources/community/documentation/developing/002_managed_tooling.md
+        dest: doc/developing/002_managed_tooling.md
+      - source: sources/community/documentation/developing/003_contribution_guidelines.md
+        dest: doc/developing/003_contribution_guidelines.md
+
+  # Clojure Patterns
+  - repos: |
+      Wall-Brew-Co/brew-bot
+      Wall-Brew-Co/brewtility
+      Wall-Brew-Co/clj-xml
+      Wall-Brew-Co/common-beer-data
+      Wall-Brew-Co/common-beer-format
+      Wall-Brew-Co/keg
+      Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/spoon
+    files:
+      - source: sources/community/documentation/clojure/patterns/symbolic_keywords.md
+        dest: doc/clojure/patterns/symbolic_keywords.md
+
   # Generic CI/CD
   - repos: |
       Wall-Brew-Co/brew-bot

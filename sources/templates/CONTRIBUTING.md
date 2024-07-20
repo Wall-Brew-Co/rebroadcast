@@ -62,13 +62,13 @@ This allows us to cleanly and consistently provide our end-users with a high-qua
 
 If you're looking for ways to contribute, but don't know where to start, try adding additional tests.
 Additionally improving documentation or adding examples as you learn a new project can is an easy way to pitch in.
-Finally, check the open [issues and feature requests](https://github.com/nnichols/{{ repo.name }}/issues) of the project and ask the maintainers if they are available to be taken on.
+Finally, check the open [issues and feature requests](https://github.com/Wall-Brew-Co/{{ repo.name }}/issues) of the project and ask the maintainers if they are available to be taken on.
 
 ## Pull Request
 
 1. Each Wall Brew library follows [SemVer](http://semver.org/ "The Semantic Versioning Scheme"). Please update the version number of any affected projects accordingly.
-2. Update the project's [CHANGELOG.md](<https://github.com/nnichols/{{> repo.name }}/blob/master/CHANGELOG.md) with the new version, date of changes, and a description of the modifications made with [sealog](https://github.com/Wall-Brew-Co/lein-sealog)
-3. If any changes impact the external interface or use of the library, please update the [README](https://github.com/nnichols/{{ repo.name }}/blob/master/README.md) to reflect any relevant differences or with additional documentation.
+2. Update the project's [CHANGELOG.md](https://github.com/Wall-Brew-Co/{{ repo.name }}/blob/master/CHANGELOG.md) with the new version, date of changes, and a description of the modifications made with [sealog](https://github.com/Wall-Brew-Co/lein-sealog)
+3. If any changes impact the external interface or use of the library, please update the [README](https://github.com/Wall-Brew-Co/{{ repo.name }}/blob/master/README.md) to reflect any relevant differences or with additional documentation.
 4. Be sure to write and update tests that reflect your changes, with good assertion descriptions, and that ensure future contributions will not cause your changes to regress in behavior.
 5. Ensure all automated checks pass against your pull request, and make any updates to fix tests, linter warnings, etc.
 6. A Wall Brew maintainer will be automatically assigned to review your Pull Request. Please consider any changes or enhancements they may suggest. In some cases, at the discretion of individual Wall Brew maintainers, these changes may be pushed onto your branch or added to any pull request.

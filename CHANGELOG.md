@@ -4,6 +4,10 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2024 September 6
+
+* Add [bouncer](https://github.com/Wall-Brew-Co/bouncer) to the list of supported repos
+
 ## 2024 July 12
 
 * Automate the copying of CODEOWNERS configuration file

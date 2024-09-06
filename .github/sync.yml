@@ -13,6 +13,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/clojure/.cljstyle
@@ -27,6 +28,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/clojure/cljkondo/config.edn
@@ -41,6 +43,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/clojure/.gitignore
@@ -55,6 +58,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/clojure/sealog/config.edn
@@ -69,6 +73,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/CODE_OF_CONDUCT.md
@@ -83,6 +88,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/CODEOWNERS
@@ -97,6 +103,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/SECURITY.md
@@ -111,6 +118,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/ISSUE_TEMPLATE/bug_report.md
@@ -129,6 +137,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/documentation/developing/001_required_tooling.md
@@ -147,6 +156,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/documentation/clojure/patterns/symbolic_keywords.md
@@ -161,6 +171,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/labels.yml
@@ -187,6 +198,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/renovate.json
@@ -201,6 +213,7 @@ group:
       Wall-Brew-Co/common-beer-format
       Wall-Brew-Co/keg
       Wall-Brew-Co/lein-sealog
+      Wall-Brew-Co/bouncer
       Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/workflows/clojure.yml
@@ -334,6 +347,19 @@ Wall-Brew-Co/lein-sealog:
     template:
       repo:
         name: lein-sealog
+
+Wall-Brew-Co/bouncer:
+  - source: sources/templates/LICENSE
+    dest: LICENSE
+    template:
+      year:
+        created: 2024
+        current: 2024
+  - source: sources/templates/CONTRIBUTING.md
+    dest: CONTRIBUTING.md
+    template:
+      repo:
+        name: bouncer
 
 Wall-Brew-Co/spoon:
   - source: sources/templates/LICENSE

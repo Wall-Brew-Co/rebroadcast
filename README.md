@@ -184,6 +184,6 @@ Information on that file's configuration may be found in the [repo-file-sync-act
 
 ## Rebroadcast License
 
-Copyright © 2022-2024 - [Wall Brew Co](https://wallbrew.com/)
+Copyright © [Wall Brew Co](https://wallbrew.com/)
 
 This software is provided for free, public use as outlined in the [MIT License](https://github.com/Wall-Brew-Co/rebroadcast/blob/master/LICENSE)

@@ -4,6 +4,11 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+## 2024 September 21
+
+* Add [bouncer job](https://github.com/Wall-Brew-Co/bouncer) to the linting GitHub Action
+* Jobs that require the Wall Brew PAT will now only run on non-forked copies of each repo
+
 ## 2024 September 14
 
 * Update cljstyle rules for generative testing blocks

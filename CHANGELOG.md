@@ -4,6 +4,41 @@ Unlike other Wall Brew repositories, `rebroadcast` does not use semantic version
 Since `rebroadcast` primarily supports automated actions and developer tooling, there is little to distinguish breaking changes and bug fixes.
 That said, it is important to track the history of changes made to our CI/CD and documentation over time.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [2024 September 30](#2024-september-30)
+- [2024 September 21](#2024-september-21)
+- [2024 September 14](#2024-september-14)
+- [2024 September 6](#2024-september-6)
+- [2024 July 12](#2024-july-12)
+- [2024 June 11](#2024-june-11)
+- [2024 May 3](#2024-may-3)
+- [2024 April 28](#2024-april-28)
+- [2024 April 22](#2024-april-22)
+- [2024 April 19](#2024-april-19)
+- [2024 March 16](#2024-march-16)
+- [2024 March 3](#2024-march-3)
+- [2024 February 19](#2024-february-19)
+- [2024 January 27](#2024-january-27)
+- [2023 June 1](#2023-june-1)
+- [2023 May 25](#2023-may-25)
+- [2023 Apr 18](#2023-apr-18)
+- [2023 Apr 01](#2023-apr-01)
+- [2023 Mar 27](#2023-mar-27)
+- [2022 Dec 13](#2022-dec-13)
+- [2022 Dec 12](#2022-dec-12)
+- [2022 Dec 08](#2022-dec-08)
+- [2022 Dec 06](#2022-dec-06)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2024 September 30
+
+* Configured several GitHub Actions to cancel previous runs when a new run is triggered
+* Eliminated test runs against every push to a branch, only running tests on pull requests
+* Label PRs with changes to bouncer files with 'restricted' and 'tooling'
+
 ## 2024 September 21
 
 * Add [bouncer job](https://github.com/Wall-Brew-Co/bouncer) to the linting GitHub Action

@@ -33,6 +33,11 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 2024 October 02
+
+* Update Renovate config to require NPM dependencies to have been available for a minimum of 3 days before updating
+* Move renovate configuration to the `.github` directory
+
 ## 2024 September 30
 
 * Configured several GitHub Actions to cancel previous runs when a new run is triggered

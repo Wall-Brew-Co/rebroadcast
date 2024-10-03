@@ -202,7 +202,7 @@ group:
       Wall-Brew-Co/spoon
     files:
       - source: sources/github-actions/renovate.json
-        dest: renovate.json
+        dest: .github/renovate.json
 
   # Clojure CI/CD
   - repos: |

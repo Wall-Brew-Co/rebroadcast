@@ -7,6 +7,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2024 October 02](#2024-october-02)
 - [2024 September 30](#2024-september-30)
 - [2024 September 21](#2024-september-21)
 - [2024 September 14](#2024-september-14)
@@ -32,6 +33,11 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 Dec 06](#2022-dec-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2024 October 02
+
+* Update Renovate config to require NPM dependencies to have been available for a minimum of 3 days before updating
+* Move renovate configuration to the `.github` directory
 
 ## 2024 September 30
 

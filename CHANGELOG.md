@@ -7,6 +7,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2024 October 07](#2024-october-07)
 - [2024 October 02](#2024-october-02)
 - [2024 September 30](#2024-september-30)
 - [2024 September 21](#2024-september-21)
@@ -33,6 +34,11 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 Dec 06](#2022-dec-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2024 October 07
+
+* Update Renovate config to ignore GitHub Actions, since they are managed by this repository
+* Update `actions/checkout` to `v4.2.1`
 
 ## 2024 October 02
 

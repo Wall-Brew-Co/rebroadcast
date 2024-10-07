@@ -43,7 +43,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 * Add a `name` to all steps in GitHub Actions workflows
 * Add inline comments to GitHub Actions
 * Fix the formatting of the `cljstyle` config
-* Surpress `clj-kondo` warnings for `clojure.core/*clojure-version*`
+* Suppress `clj-kondo` warnings for `clojure.core/*clojure-version*`
 
 ## 2024 October 07
 

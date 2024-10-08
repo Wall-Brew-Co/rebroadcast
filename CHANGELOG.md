@@ -7,6 +7,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2024 October 08](#2024-october-08)
 - [2024 October 07](#2024-october-07)
 - [2024 October 02](#2024-october-02)
 - [2024 September 30](#2024-september-30)
@@ -25,15 +26,24 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2024 January 27](#2024-january-27)
 - [2023 June 1](#2023-june-1)
 - [2023 May 25](#2023-may-25)
-- [2023 Apr 18](#2023-apr-18)
-- [2023 Apr 01](#2023-apr-01)
-- [2023 Mar 27](#2023-mar-27)
-- [2022 Dec 13](#2022-dec-13)
-- [2022 Dec 12](#2022-dec-12)
-- [2022 Dec 08](#2022-dec-08)
-- [2022 Dec 06](#2022-dec-06)
+- [2023 April 18](#2023-april-18)
+- [2023 April 01](#2023-april-01)
+- [2023 March 27](#2023-march-27)
+- [2022 December 13](#2022-december-13)
+- [2022 December 12](#2022-december-12)
+- [2022 December 08](#2022-december-08)
+- [2022 December 06](#2022-december-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2024 October 08
+
+* Consistently format all GitHub Actions workflows
+* Add an `id` to all steps in GitHub Actions workflows
+* Add a `name` to all steps in GitHub Actions workflows
+* Add inline comments to GitHub Actions
+* Fix the formatting of the `cljstyle` config
+* Suppress `clj-kondo` warnings for `clojure.core/*clojure-version*`
 
 ## 2024 October 07
 
@@ -126,29 +136,29 @@ That said, it is important to track the history of changes made to our CI/CD and
 * Bump `clj-holmes-action` to 53daa4da4ff495cccf791e4ba4222a8317ddae9e
 * Force Leiningen to keep POM files up-to-date
 
-## 2023 Apr 18
+## 2023 April 18
 
 * Bump `actions/checkout` to `3.5.2`
 
-## 2023 Apr 01
+## 2023 April 01
 
 * Bump `nnichols/clojure-dependency-update-action` to `v5`
 
-## 2023 Mar 27
+## 2023 March 27
 
 * Bump `actions/checkout` to `3.5.0`
 * Bump `actions/checkout` to `3.3.0`
 
-## 2022 Dec 13
+## 2022 December 13
 
 * Add NPM files to .gitignore, since it's used for CLJS test suites
 * auto-run sync on merge to master
 
-## 2022 Dec 12
+## 2022 December 12
 
 * Bump `actions/checkout` from `3.1.0` to `3.2.0`
 
-## 2022 Dec 08
+## 2022 December 08
 
 * Configure .gitignore as a rebroadcastable target
 * Configure common Pull Request Label targets as rebroadcastable targets
@@ -158,7 +168,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 * Add template for Contribution Guidelines to embed repository-specific links
 * Add template for MIT License to embed the repository year
 
-## 2022 Dec 06
+## 2022 December 06
 
 * Configure all common clojure Github Actions as rebroadcastable targets
 * Configure static documentation templates as rebroadcastable targets

@@ -7,6 +7,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2024 October 13](#2024-october-13)
 - [2024 October 08](#2024-october-08)
 - [2024 October 07](#2024-october-07)
 - [2024 October 02](#2024-october-02)
@@ -35,6 +36,13 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 December 06](#2022-december-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2024 October 13
+
+* Move `CODEOWNERS` to `.github` directory
+* Move `lein-sealog` configuration to `.wallbrew` directory
+* Sort the maps in `cljstyle` configuration
+* Update the labeler configuration to match files in their new locations
 
 ## 2024 October 08
 

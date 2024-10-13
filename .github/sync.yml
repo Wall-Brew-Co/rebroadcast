@@ -62,7 +62,7 @@ group:
       Wall-Brew-Co/spoon
     files:
       - source: sources/clojure/sealog/config.edn
-        dest: .sealog/config.edn
+        dest: .wallbrew/sealog/config.edn
 
   # Code of Conduct
   - repos: |
@@ -92,7 +92,7 @@ group:
       Wall-Brew-Co/spoon
     files:
       - source: sources/community/CODEOWNERS
-        dest: CODEOWNERS
+        dest: .github/CODEOWNERS
 
   # Security Policy
   - repos: |

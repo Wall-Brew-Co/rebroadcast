@@ -36,6 +36,13 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 2024 October 13
+
+* Move `CODEOWNERS` to `.github` directory
+* Move `lein-sealog` configuration to `.wallbrew` directory
+* Sort the maps in `cljstyle` configuration
+* Update the labeler configuration to match files in their new locations
+
 ## 2024 October 08
 
 * Consistently format all GitHub Actions workflows

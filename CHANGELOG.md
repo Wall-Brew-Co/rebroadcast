@@ -7,6 +7,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2025 January 1](#2025-january-1)
 - [2024 November 2](#2024-november-2)
 - [2024 October 13](#2024-october-13)
 - [2024 October 08](#2024-october-08)
@@ -37,6 +38,10 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 December 06](#2022-december-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2025 January 1
+
+- Update copyright references to the new year.
 
 ## 2024 November 2
 

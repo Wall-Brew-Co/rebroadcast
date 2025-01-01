@@ -38,6 +38,10 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 2025 January 1
+
+- Update copyright references to the new year.
+
 ## 2024 November 2
 
 - Add common Node.js .gitignore targets

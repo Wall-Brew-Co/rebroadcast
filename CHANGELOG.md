@@ -39,6 +39,10 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 2025 January 3
+
+- Install Java and Clojure on GitHub runners now that Clojure is no longer a default inclusion on Ubuntu
+
 ## 2025 January 1
 
 - Update copyright references to the new year.
@@ -120,7 +124,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 ## 2024 March 16
 
-- Update renovate to mark PRs as auto-mergable (requires review and passing tests)
+- Update renovate to mark PRs as auto-mergeable (requires review and passing tests)
 
 ## 2024 March 3
 

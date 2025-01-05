@@ -90,6 +90,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-clj
 
+      - name: Install Clojure Dependencies
+        id: install-deps
+        run: lein deps
+
       - name: Echo Leiningen Version
         id: lein-version
         run: lein -v
@@ -135,6 +139,10 @@ jobs:
           key: ${{ runner.os }}-clj-${{ hashFiles('**/project.clj') }}
           restore-keys: |
             ${{ runner.os }}-clj
+
+      - name: Install Clojure Dependencies
+        id: install-deps
+        run: lein deps
 
       - name: Echo Leiningen Version
         id: lein-version

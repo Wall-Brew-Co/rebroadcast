@@ -45,13 +45,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-clj
 
-      - name: Echo Leiningen Version
-        id: lein-version
-        run: lein -v
-
       - name: Install Clojure Dependencies
         id: install-deps
         run: lein deps
+
+      - name: Echo Leiningen Version
+        id: lein-version
+        run: lein -v
 
       # This isn't strictly required to deploy, but is a quality check against our documentation
       - name: Validate Changelog Status

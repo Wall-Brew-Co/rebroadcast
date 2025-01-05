@@ -56,13 +56,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node
 
-      - name: Echo Leiningen Version
-        id: lein-version
-        run: lein -v
-
       - name: Install Clojure/ClojureScript Dependencies
         id: install-clojure-deps
         run: lein deps
+
+      - name: Echo Leiningen Version
+        id: lein-version
+        run: lein -v
 
       - name: Install node.js Dependencies
         id: install-node-deps

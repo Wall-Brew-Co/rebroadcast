@@ -44,6 +44,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 ## 2025 January 5
 
 - Remove keg from the list of supported repositories now that it is archived.
+- Improve logging in a GitHub Action Jobs
 
 ## 2025 January 3
 

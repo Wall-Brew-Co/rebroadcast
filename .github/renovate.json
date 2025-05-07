@@ -10,10 +10,10 @@
     "config:recommended"
   ],
   "github-actions": {
-    "fileMatch": [
-      "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
-      "(^|/)action\\.ya?ml$",
-      "\\.yml$"
+    "managerFilePatterns": [
+      "/(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$/",
+      "/(^|/)action\\.ya?ml$/",
+      "/\\.yml$/"
     ]
   },
   "labels": [

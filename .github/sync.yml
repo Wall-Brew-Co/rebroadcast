@@ -248,7 +248,7 @@ Wall-Brew-Co/brew-bot:
     template:
       year:
         created: 2020
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -262,7 +262,7 @@ Wall-Brew-Co/brewtility:
     template:
       year:
         created: 2020
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -275,7 +275,7 @@ Wall-Brew-Co/clj-xml:
     template:
       year:
         created: 2020
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -288,7 +288,7 @@ Wall-Brew-Co/common-beer-data:
     template:
       year:
         created: 2022
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -301,7 +301,7 @@ Wall-Brew-Co/common-beer-format:
     template:
       year:
         created: 2020
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -314,7 +314,7 @@ Wall-Brew-Co/lein-sealog:
     template:
       year:
         created: 2022
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -327,7 +327,7 @@ Wall-Brew-Co/bouncer:
     template:
       year:
         created: 2024
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:
@@ -340,7 +340,7 @@ Wall-Brew-Co/spoon:
     template:
       year:
         created: 2022
-        current: 2025
+        current: 2026
   - source: sources/templates/CONTRIBUTING.md
     dest: CONTRIBUTING.md
     template:

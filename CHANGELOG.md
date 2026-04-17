@@ -6,6 +6,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [2025 January 5](#2025-january-5)
 - [2025 January 3](#2025-january-3)

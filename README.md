@@ -4,6 +4,7 @@ A repository for files that are copied across multiple repositories.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Rationale](#rationale)
 - [Supported Files](#supported-files)

@@ -3,6 +3,9 @@ name: Formatter
 on:
   pull_request: {}
 
+permissions:
+  contents: write
+
 jobs:
   formatting:
     # This job requires the Wall Brew Bot Token, so it is only run on non-forked repositories
@@ -10,14 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # https://github.com/actions/checkout
       - name: git checkout
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.WALL_BREW_BOT_PAT }}
 
+      # https://github.com/actions/setup-node
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: 24
           cache: 'npm'
@@ -29,8 +34,9 @@ jobs:
       - name: Update Markdown Files
         run: doctoc sources/community/CODE_OF_CONDUCT.md README.md CHANGELOG.md sources/templates/CONTRIBUTING.md --github
 
+      # https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: |
             [Format] Auto-formatting

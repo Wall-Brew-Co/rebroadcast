@@ -5,17 +5,22 @@ on:
   push:
     branches: [ master ]
 
+permissions:
+  contents: read
+
 jobs:
   sync-files:
     # This job requires the Wall Brew Bot Token, so it is only run on non-forked repositories
     if: github.repository_owner == 'Wall-Brew-Co'
     runs-on: ubuntu-latest
     steps:
+      # https://github.com/actions/checkout
       - name: Checkout latest commit
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
+      # https://github.com/BetaHuhn/repo-file-sync-action
       - name: Run GitHub File Sync
-        uses: BetaHuhn/repo-file-sync-action@v1.21.1
+        uses: BetaHuhn/repo-file-sync-action@8b92be3375cf1d1b0cd579af488a9255572e4619 # v1.21.1
         with:
           GH_PAT: ${{ secrets.WALL_BREW_BOT_PAT }}
           GIT_EMAIL: the.wall.brew@gmail.com

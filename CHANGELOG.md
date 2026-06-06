@@ -8,6 +8,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2026 June 6](#2026-june-6)
 - [2025 January 5](#2025-january-5)
 - [2025 January 3](#2025-january-3)
 - [2025 January 1](#2025-january-1)
@@ -41,6 +42,16 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 December 06](#2022-december-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2026 June 6
+
+- Pin all GitHub Actions to full commit SHAs, retaining version tags as inline comments
+- Add a comment linking to each Action's source repository above every workflow step
+- Add least-privilege `permissions` blocks to every workflow
+- Pin `ribtoks/tdg-github-action` to `v0.4.17-beta`, replacing the mutable `master` reference
+- Update the Java distribution from the deprecated `adopt` (AdoptOpenJDK) to `temurin` (Eclipse Temurin)
+- Pin `lein`, `clj-kondo`, and `cljstyle` versions in `setup-clojure` steps, replacing `latest`
+- Add a Renovate `customManagers` rule to keep the pinned `lein`/`clj-kondo`/`cljstyle` versions up to date
 
 ## 2025 January 5
 

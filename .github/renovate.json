@@ -6,6 +6,18 @@
   "commitBodyTable": true,
   "configMigration": true,
   "configWarningReuseIssue": false,
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^sources/github-actions/workflows/.+\\.ya?ml$/"
+      ],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)(?: versioning=(?<versioning>\\S+))?\\s+[A-Za-z0-9_.-]+:\\s*['\"]?(?<currentValue>[^'\"\\s]+)['\"]?"
+      ],
+      "extractVersion": "^v?(?<version>.+)$"
+    }
+  ],
   "extends": [
     "config:recommended"
   ],

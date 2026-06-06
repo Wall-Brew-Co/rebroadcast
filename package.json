@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "doctoc": "^2.2.1"
+    "doctoc": "2.2.1",
+    "renovate": "^43.214.2"
   }
 }

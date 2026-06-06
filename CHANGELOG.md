@@ -52,6 +52,9 @@ That said, it is important to track the history of changes made to our CI/CD and
 - Update the Java distribution from the deprecated `adopt` (AdoptOpenJDK) to `temurin` (Eclipse Temurin)
 - Pin `lein`, `clj-kondo`, and `cljstyle` versions in `setup-clojure` steps, replacing `latest`
 - Add a Renovate `customManagers` rule to keep the pinned `lein`/`clj-kondo`/`cljstyle` versions up to date
+- Fix the Renovate `customManagers` rule by replacing the invalid `extractVersion` field with `extractVersionTemplate`
+- Update the `renovate` dependency to `43.214.2`
+- Add a GitHub Action to validate the Renovate configuration on every pull request
 
 ## 2025 January 5
 

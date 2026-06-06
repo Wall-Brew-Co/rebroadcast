@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "doctoc": "doctoc sources/community/CODE_OF_CONDUCT.md README.md CHANGELOG.md sources/templates/CONTRIBUTING.md --github",
+    "validate-renovate": "renovate-config-validator"
+  },
   "dependencies": {
     "doctoc": "2.2.1",
     "renovate": "^43.214.2"

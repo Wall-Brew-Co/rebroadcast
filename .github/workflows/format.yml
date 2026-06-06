@@ -27,12 +27,12 @@ jobs:
           node-version: 24
           cache: 'npm'
 
-      # Table of Contents Tool: https://github.com/thlorenz/doctoc
-      - name: Install Doctoc
-        run: npm install -g doctoc
+      - name: Install Dependencies
+        run: npm ci
 
+      # Table of Contents Tool: https://github.com/thlorenz/doctoc
       - name: Update Markdown Files
-        run: doctoc sources/community/CODE_OF_CONDUCT.md README.md CHANGELOG.md sources/templates/CONTRIBUTING.md --github
+        run: npm run doctoc
 
       # https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit changes

@@ -30,4 +30,4 @@ jobs:
 
       # https://docs.renovatebot.com/config-validation/
       - name: Validate Renovate Configuration
-        run: npx --no-install renovate-config-validator
+        run: npm run validate-renovate

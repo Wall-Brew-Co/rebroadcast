@@ -5,6 +5,6 @@
   },
   "dependencies": {
     "doctoc": "2.5.0",
-    "renovate": "^43.214.2"
+    "renovate": "^43.240.0"
   }
 }

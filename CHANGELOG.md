@@ -8,6 +8,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2026 June 28](#2026-june-28)
 - [2026 June 6](#2026-june-6)
 - [2025 January 5](#2025-january-5)
 - [2025 January 3](#2025-january-3)

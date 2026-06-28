@@ -43,6 +43,10 @@ That said, it is important to track the history of changes made to our CI/CD and
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 2026 June 28
+
+- Remove faulty greeting job
+
 ## 2026 June 6
 
 - Pin all GitHub Actions to full commit SHAs, retaining version tags as inline comments

@@ -8,6 +8,7 @@ That said, it is important to track the history of changes made to our CI/CD and
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [2026 June 28](#2026-june-28)
 - [2026 June 6](#2026-june-6)
 - [2025 January 5](#2025-january-5)
 - [2025 January 3](#2025-january-3)
@@ -42,6 +43,10 @@ That said, it is important to track the history of changes made to our CI/CD and
 - [2022 December 06](#2022-december-06)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 2026 June 28
+
+- Remove faulty greeting job
 
 ## 2026 June 6
 

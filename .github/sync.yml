@@ -173,8 +173,6 @@ group:
         dest: .github/workflows/todo.yml
       - source: sources/github-actions/workflows/contributors.yml
         dest: .github/workflows/contributors.yml
-      - source: sources/github-actions/workflows/greetings.yml
-        dest: .github/workflows/greetings.yml
       - source: sources/github-actions/labeler.yml
         dest: .github/labeler.yml
 
